@@ -67,11 +67,9 @@ def bruteforce_ssh_login(target="192.168.1.254",user_list=None,pass_list=None,po
     process.communicate()
     return process.pid
 
-#iad_ihm.ihm_login(password="11")
+
     
 #for x in random_sequence_gen():
 
  #   print x
 
-#bruteforce_ihm_login("192.168.1.254",wordlist="list_of_links");
-#bruteforce_ssh_login(target="192.168.1.254",user_list="list_of_links",pass_list="list_of_links")
