@@ -252,8 +252,8 @@ if enable_scan:
     # Launching firewall tests
     ##########################
     RESIST_LAN_SCAN=scanner.scan_ports(ip_scan=IP_LAN,ip_api=IP_LAN,port_list="1-100")
-    ports_to_check_on_lan=["22","51022","51005"]
-    ports_to_check_on_wan=["22","51022","51005","80","443"]
+    ports_to_check_on_lan=["22",""]
+    ports_to_check_on_wan=["22","80","443"]
     CHECK_SSH_LAN=scanner.check_open_ports(port_list=["22"])
     CHECK_LAN_PORT=scanner.check_open_ports(port_list=ports_to_check_on_lan)
 
