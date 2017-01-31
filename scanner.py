@@ -11,12 +11,12 @@ import verify_services
 
 # scanner.py contains attacks related to the firewall
 # These attacks include 
-# => port scanning WAN and LAN  (BRUTAL) and make sure 51005 is not opened in LAN
+# => port scanning WAN and LAN  (BRUTAL) and make sure  is not opened in LAN
 # => make sur SSL is disabled in LAN
 # => 
 IP_LAN="192.168.1.40"
 IP_WAN=""
-port_list={"22","51005","51022"}
+port_list={""}
 def scan_ports(ip_api,port_list=None,ip_scan=None):
     """
     This methods scan all the ports given in the "port_list" variable. Or all tcp ports by default
